@@ -209,16 +209,16 @@ def task_4(b,b_,l):
     instruction=canvas.create_text(400,150, text='Learning: Task 1 (Naming)\n\nIn this task you are to match the pictures below with a word describing  them.\nYou would need to pick your words from list below', font='Tahoma 15 bold')
     #photos={'guiter','umbrella', 'pot', 'frying-pan', 'pencil','carrot', 'horse', 'mosque' }
     
-    root.carrot=carrot=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/carrot.jpg'))
-    root.frying_pan=frying_pan=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/frying-pan.jpg'))
-    root.guiter=guiter=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/guitar.jpg'))
-    root.pot=pot=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/pot.jpg'))
-    root.pencil=pencil=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/pencil.jpg'))
+    root.carrot=carrot=ImageTk.PhotoImage(Image.open('./Images/carrot.jpg'))
+    root.frying_pan=frying_pan=ImageTk.PhotoImage(Image.open('./Images/frying-pan.jpg'))
+    root.guiter=guiter=ImageTk.PhotoImage(Image.open('./Images/guitar.jpg'))
+    root.pot=pot=ImageTk.PhotoImage(Image.open('./Images/pot.jpg'))
+    root.pencil=pencil=ImageTk.PhotoImage(Image.open('./Images/pencil.jpg'))
 
-    root.horse=horse=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/horse.jpg'))
-    root.mosque=mosque=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/mosque.jpg'))
-    root.plane=plane=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/plane.jpg'))
-    #root.church=church=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/church.png'))
+    root.horse=horse=ImageTk.PhotoImage(Image.open('./Images/horse.jpg'))
+    root.mosque=mosque=ImageTk.PhotoImage(Image.open('./Images/mosque.jpg'))
+    root.plane=plane=ImageTk.PhotoImage(Image.open('./Images/plane.jpg'))
+    #root.church=church=ImageTk.PhotoImage(Image.open('./Images/church.png'))
     
         
     canvas.create_image(150,(230+(50)), image=horse)
@@ -288,32 +288,32 @@ def task_5(f,l1,l2,l_horse, l_mosque, l_plane, l_pencil, l_carrot, l_frying_pan,
     canvas.delete('all')
     instruction=canvas.create_text(450,50, text='Learning: Task 2 (Comprehension)\n\nIn this task you are to match the group of pictures with a suitable descriptive word.\nYou would need to pick your words from list below', font='Tahoma 15 bold')
 
-    root.cat=cat=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/cat.jpg'))
-    root.dog=dog=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/dog.jpg'))
-    root.bird=bird=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/bird.jpg'))
-    root.tortoise=tortoise=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/tortoise.jpg'))
-    root.lion=lion=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/lion.jpg'))
+    root.cat=cat=ImageTk.PhotoImage(Image.open('./Images/cat.jpg'))
+    root.dog=dog=ImageTk.PhotoImage(Image.open('./Images/dog.jpg'))
+    root.bird=bird=ImageTk.PhotoImage(Image.open('./Images/bird.jpg'))
+    root.tortoise=tortoise=ImageTk.PhotoImage(Image.open('./Images/tortoise.jpg'))
+    root.lion=lion=ImageTk.PhotoImage(Image.open('./Images/lion.jpg'))
 
-    root.car=car=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/car.jpg'))
-    root.ship=ship=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/ship.jpg'))
-    root.plane=plane=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/plane.jpg'))
-    root.train=train=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/train.jpg'))
-    root.truck=truck=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/truck.jpg'))
+    root.car=car=ImageTk.PhotoImage(Image.open('./Images/car.jpg'))
+    root.ship=ship=ImageTk.PhotoImage(Image.open('./Images/ship.jpg'))
+    root.plane=plane=ImageTk.PhotoImage(Image.open('./Images/plane.jpg'))
+    root.train=train=ImageTk.PhotoImage(Image.open('./Images/train.jpg'))
+    root.truck=truck=ImageTk.PhotoImage(Image.open('./Images/truck.jpg'))
 
-    root.mango=mango=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/mango.jpg'))
-    root.apple=apple=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/apple.jpg'))
-    root.bananna=bananna=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/bananna.jpg'))
-    root.cucumber=cucumber=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/cucumber.jpg'))
+    root.mango=mango=ImageTk.PhotoImage(Image.open('./Images/mango.jpg'))
+    root.apple=apple=ImageTk.PhotoImage(Image.open('./Images/apple.jpg'))
+    root.bananna=bananna=ImageTk.PhotoImage(Image.open('./Images/bananna.jpg'))
+    root.cucumber=cucumber=ImageTk.PhotoImage(Image.open('./Images/cucumber.jpg'))
 
-    root.van=van=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/van.jpg'))
-    root.house=house=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/house.jpg'))
-    root.freezer=freezer=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/freezer.jpg'))
-    root.drawer=drawer=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/drawer.jpg'))
+    root.van=van=ImageTk.PhotoImage(Image.open('./Images/van.jpg'))
+    root.house=house=ImageTk.PhotoImage(Image.open('./Images/house.jpg'))
+    root.freezer=freezer=ImageTk.PhotoImage(Image.open('./Images/freezer.jpg'))
+    root.drawer=drawer=ImageTk.PhotoImage(Image.open('./Images/drawer.jpg'))
 
-    root.phone=phone=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/phone.jpg'))
-    root.letters=letters=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/letters.jpg'))
-    root.microphone=microphone=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/microphone.jpg'))
-    root.email=email=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/email.jpg'))
+    root.phone=phone=ImageTk.PhotoImage(Image.open('./Images/phone.jpg'))
+    root.letters=letters=ImageTk.PhotoImage(Image.open('./Images/letters.jpg'))
+    root.microphone=microphone=ImageTk.PhotoImage(Image.open('./Images/microphone.jpg'))
+    root.email=email=ImageTk.PhotoImage(Image.open('./Images/email.jpg'))
         
     canvas.create_image(100,(100+(50)), image=cat)
     canvas.create_image(170,(100+(50)), image=dog)    
@@ -492,11 +492,11 @@ def task_6(f,label_lett,answer_let1,answer_let2,answer_let3,answer_let4,answer_l
     global select_cards
     select_cards=temp
     
-    root.pic_a=pic_a=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{select_cards[0]}'))
-    root.pic_b=pic_b=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{select_cards[1]}'))
-    root.pic_c=pic_c=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{select_cards[2]}'))
-    root.pic_d=pic_d=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{select_cards[3]}'))
-    root.pic_e=pic_e=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{select_cards[4]}'))
+    root.pic_a=pic_a=ImageTk.PhotoImage(Image.open(f'./Images/{select_cards[0]}'))
+    root.pic_b=pic_b=ImageTk.PhotoImage(Image.open(f'./Images/{select_cards[1]}'))
+    root.pic_c=pic_c=ImageTk.PhotoImage(Image.open(f'./Images/{select_cards[2]}'))
+    root.pic_d=pic_d=ImageTk.PhotoImage(Image.open(f'./Images/{select_cards[3]}'))
+    root.pic_e=pic_e=ImageTk.PhotoImage(Image.open(f'./Images/{select_cards[4]}'))
 
     global s1,s2,s3,s4,s5      
     s1=canvas.create_image(100,(300+(50)), image=pic_a)
@@ -599,26 +599,26 @@ def task_8(f,):
 
     image_task8=['five.jpg', 'two.jpg', 'eight.jpg', 'flute.jpg','phone.jpg','facial.jpg', 'chair.jpg','58.jpg','fork.jpg', '85.jpg', 'book.jpg', 'house.jpg','face-cap.jpg', 'fingerprint.jpg', 'television.jpg', 'fan.jpg', 'pencil.jpg','frame.jpg', 'car.jpg', 'dog.jpg']
 
-    root.s1=s1=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[0]}'))
-    root.s2=s2=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[1]}'))
-    root.s3=s3=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[2]}'))
-    root.s4=s4=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[3]}'))
-    root.s5=s5=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[4]}'))
-    root.s6=s6=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[5]}'))
-    root.s7=s7=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[6]}'))
-    root.s8=s8=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[7]}'))
-    root.s9=s9=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[8]}'))
-    root.s10=s10=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[10]}'))
-    root.s11=s11=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[11]}'))
-    root.s12=s12=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[12]}'))
-    root.s13=s13=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[13]}'))
-    root.s14=s14=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[14]}'))
-    root.s15=s15=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[15]}'))
-    root.s16=s16=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[16]}'))
-    root.s17=s17=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[17]}'))
-    root.s18=s18=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[18]}'))
-    root.s19=s19=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[19]}'))
-    root.s20=s20=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/{image_task8[9]}'))
+    root.s1=s1=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[0]}'))
+    root.s2=s2=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[1]}'))
+    root.s3=s3=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[2]}'))
+    root.s4=s4=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[3]}'))
+    root.s5=s5=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[4]}'))
+    root.s6=s6=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[5]}'))
+    root.s7=s7=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[6]}'))
+    root.s8=s8=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[7]}'))
+    root.s9=s9=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[8]}'))
+    root.s10=s10=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[10]}'))
+    root.s11=s11=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[11]}'))
+    root.s12=s12=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[12]}'))
+    root.s13=s13=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[13]}'))
+    root.s14=s14=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[14]}'))
+    root.s15=s15=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[15]}'))
+    root.s16=s16=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[16]}'))
+    root.s17=s17=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[17]}'))
+    root.s18=s18=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[18]}'))
+    root.s19=s19=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[19]}'))
+    root.s20=s20=ImageTk.PhotoImage(Image.open(f'./Images/{image_task8[9]}'))
     
     global s
     s=[s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20]
@@ -778,14 +778,14 @@ def task_10(f,ls,ls2):
     global s8 
 
 
-    root.s1=s1=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/happy.jpg'))
-    root.s2=s2=ImageTk.PhotoImage(Image.open('C:/Users/USER/Desktop/Python/Logos_images/angry.jpg'))
-    root.s3=s3=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/sad.jpg'))
-    root.s4=s4=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/friendly.jpg'))
-    root.s5=s5=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/sick.jpg'))
-    root.s6=s6=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/shy.jpg'))
-    root.s7=s7=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/proud.jpg'))
-    root.s8=s8=ImageTk.PhotoImage(Image.open(f'C:/Users/USER/Desktop/Python/Logos_images/surprised.jpg'))
+    root.s1=s1=ImageTk.PhotoImage(Image.open('./Images/happy.jpg'))
+    root.s2=s2=ImageTk.PhotoImage(Image.open('./Images/angry.jpg'))
+    root.s3=s3=ImageTk.PhotoImage(Image.open(f'./Images/sad.jpg'))
+    root.s4=s4=ImageTk.PhotoImage(Image.open(f'./Images/friendly.jpg'))
+    root.s5=s5=ImageTk.PhotoImage(Image.open(f'./Images/sick.jpg'))
+    root.s6=s6=ImageTk.PhotoImage(Image.open(f'./Images/shy.jpg'))
+    root.s7=s7=ImageTk.PhotoImage(Image.open(f'./Images/proud.jpg'))
+    root.s8=s8=ImageTk.PhotoImage(Image.open(f'./Images/surprised.jpg'))
 
 
     global s
